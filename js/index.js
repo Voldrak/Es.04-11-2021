@@ -13,9 +13,12 @@
      </li>`
    );
    
-   const content = elements.join('');
+
+   const content = elements.sort().join('');
  
    container.innerHTML = content;
+   
+ 
 }
  
  document.addEventListener('DOMContentLoaded', () => {
@@ -30,6 +33,8 @@
 
    render(list, data);
  
+  
+
    // VERSIONE ORIGINALE CON IL SUBMIT
    // form.addEventListener('submit', (event) => {
    //   event.preventDefault();
@@ -56,19 +61,18 @@
 
    form2.addEventListener('submit', (event) => {
    event.preventDefault();
-   const newUser = {
+   const newC = {
     name: inputName.value,
     phone: inputPhone.value,
     email: inputEmail.value
    }
 
-   data.push(newUser)
+   data.push(newC)
 
    
    render(list, data);
    });
 
-   render.sort();
 
 });
 

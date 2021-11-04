@@ -1,4 +1,32 @@
 
+* {
+  background: black;
+  color: blanchedalmond;    
+}
+
+body {
+  margin: 0;    
+}
+
+/* Head */
+.head {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.head h2 {
+  font-size: 250%;
+  margin-left: 10px;
+}
+
+.gif {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: none;
+}
+
+/* Lista */
 
 main {
     width: 80%;
@@ -36,3 +64,8 @@ main {
       column-gap: 10px;
     }
   } 
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
