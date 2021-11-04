@@ -24,7 +24,7 @@
     <form id="cercaC">
       <label for="search">Cerca tra i contatti:</label>
       <input type="text" name="search" id="search"
-        placeholder="es: pippo" autocomplete="off" />
+        placeholder="es: marco" autocomplete="off" />
       <button>Cerca</button>
     </form>
 
@@ -35,13 +35,14 @@
             <input type="text" name="name" id="names" class="textbox" placeholder="es: Marco" autocomplete="off" required/>
 
             <label for="phones">Phone*</label>
-            <input type="text" name="phone" id="phones" class="textbox" placeholder="es: +39 1234567890" autocomplete="off" required/>
+            <input type="tel" name="phone" id="phones" class="textbox" placeholder="es: +39 1234567890" autocomplete="off" required/>
 
             <label for="email">Email*</label>
-            <input type="text" name="email" id="emails" class="textbox" placeholder="es: MarcoM@gmail.com" autocomplete="off" required/><br>
+            <input type="email" name="email" id="emails" class="textbox" placeholder="es: MarcoM@gmail.com" autocomplete="off" required/><br>
     
-            <button id="addC">Aggiungi</button>
-
+        <div id="bottone">
+            <button class="addC btn">Aggiungi</button>
+        </div>
         </form>
     </div>
     <ul>

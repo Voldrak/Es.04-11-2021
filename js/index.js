@@ -26,7 +26,7 @@
    const input = q('#cercaC input');
    const list = q('ul');
    const form2 = q('#contatti')
-   const btnAdd = q("#addC");
+   const btnAdd = q(".addC");
    const inputName = q('#names');
    const inputPhone = q('#phones');
     const inputEmail = q('#emails');
